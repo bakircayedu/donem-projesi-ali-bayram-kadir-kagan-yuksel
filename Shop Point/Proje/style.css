@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container {
+    
+   width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+ 
+}
+
+.container .navbar {
+ 
+    width: 100%;
+    height: 100px;
+    background-color:black;
+   
+
+}
+
+.navbar .logo {
+   
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+    
+}
+.navbar .Marka{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar .logo img {
+
+    height: 75px;
+    width: 75px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #f3f3f3;
+
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: #ff6e00;
+    border-radius: 2px;
+}
+
+ul li ul {
+    background-color:#2c3e50;
+    display:none;
+    position:absolute;
+    width:175px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+.center img{
+height: 250px;
+width: 250px;
+margin-left: 20px;
+
+}
+
+.urun{
+    margin-top: 5%;
+    height: 400px;
+     width: 300px;
+    border: 3px solid black; 
+    display: inline-block;
+}
+.center  div{
+    margin-right: 127px;
+}
+
+.center p{
+    text-align: left;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link{
+    color: black;
+}
+.center button{
+    background-color: darkorange;
+    width: 295px;
+    height: 30px;
+}
